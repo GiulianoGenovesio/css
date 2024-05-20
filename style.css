@@ -4,12 +4,13 @@ body{
     font-size: 20px;
     line-height: 20px;
 }
-header{
+
+header {
     background-color: pink;
     padding: 10px;
 }
 
-header h1{
+header h1 {
     color: rgb(14, 9, 9);
     font-weight: 500;
     font-style: italic;
@@ -17,18 +18,23 @@ header h1{
     position: relative;
     bottom: 35px;
 }
-nav{
+
+nav {
     background-color: #f378e9;
+    margin-bottom: 20px;
 }
-nav ul{
+
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
 }
+
 nav ul li {
     flex-grow: 1;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -37,53 +43,65 @@ nav ul li a {
     justify-content: center;
 }
 
-nav ul li a:hover{
-    background-color: rgba(0,0,o.3);
-} 
+nav ul li a:hover {
+    background-color: rgba(0, 0, o.3);
+}
+
 nav ul li a.activo {
-    background-color:#FF01E0;
- }
-footer{
+    background-color: #FF01E0;
+}
+
+footer {
     background-color: #ccc;
     padding: 20px 0;
     text-align: center;
- }
-.holder{
+    margin-top: 20px;
+}
+
+/* .holder{
     width: 960px;
     margin:0% auto;
     
-    }
-    .homeimg{
-        display: flex;
-        justify-content: center;
-    }
-.destacados{
-    color: #FF01E0;
-    font-weight: 700;
-}
-
-h2{
+    } */
+h2 {
     color: #f378e9;
     font-weight: 500;
 }
 
+.homeimg {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
 /* inicio de home */
-
-.Bienvenidos{
-    width: 75%;
-    line-height: 25px;
-}
-
-.Testimonios{
-    width: 25%;
-    line-height: 25px;
-    padding: 10px;
-}
 .columnas{
     display: flex;
+}
+.Bienvenidos{
+    width: 50%;
+    justify-content: end;
+    padding: 20px;
+}
+.Bienvenidos p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+.Testimonios{
+    padding: 20px;
+}
+.Testimonios p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #f378e9;
 
 }
-
 
 
 
@@ -95,4 +113,3 @@ h2{
 
 
 /* Fin de home */
- 
