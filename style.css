@@ -1,0 +1,98 @@
+/* font-family: "Open Sans", sans-serif; */
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+header{
+    background-color: pink;
+    padding: 10px;
+}
+
+header h1{
+    color: rgb(14, 9, 9);
+    font-weight: 500;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+}
+nav{
+    background-color: #f378e9;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    flex-grow: 1;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,o.3);
+} 
+nav ul li a.activo {
+    background-color:#FF01E0;
+ }
+footer{
+    background-color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+ }
+.holder{
+    width: 960px;
+    margin:0% auto;
+    
+    }
+    .homeimg{
+        display: flex;
+        justify-content: center;
+    }
+.destacados{
+    color: #FF01E0;
+    font-weight: 700;
+}
+
+h2{
+    color: #f378e9;
+    font-weight: 500;
+}
+
+/* inicio de home */
+
+.Bienvenidos{
+    width: 75%;
+    line-height: 25px;
+}
+
+.Testimonios{
+    width: 25%;
+    line-height: 25px;
+    padding: 10px;
+}
+.columnas{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Fin de home */
+ 
